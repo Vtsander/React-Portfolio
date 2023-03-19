@@ -1,38 +1,36 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Samples from './Samples';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 import Home from '../pages/Home';
 
-function Main() {
-  const hash = window.location.hash.slice(1) || 'about';
-  const [currentPage, setCurrentPage] = useState(hash);
+const pages = {
+  Home,
+  about: About,
+  portfolio: Projects,
+  contact: Contact,
+  resume: Resume,
+};
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'Home':
-        return <Home />;
-      case 'about':
-        return <About />;
-      case 'portfolio':
-        return <Projects />;
-      case 'contact':
-        return <Contact />;
-      case 'resume':
-        return <Resume />;
-      default:
-        return <Home />;
+function Main() {
+  const [currentPage, setCurrentPage] = useState('about');
+  
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    if (hash && pages[hash]) {
+      setCurrentPage(hash);
     }
-  };
+  }, []);
+
+  const PageComponent = pages[currentPage];
 
   return (
     <div className="container">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {renderPage()}
+      <PageComponent />
       <Footer />
     </div>
   );
