@@ -1,6 +1,6 @@
 import portrait from '../assets/Profile.png';
 
-function About() {
+function Home() {
   const styles = {
     title: {
       display: 'flex',
@@ -21,36 +21,25 @@ function About() {
         <img src={portrait} alt="self portrait" style={styles.portraitImg} />
         <h3>Intro</h3>
         <p>
-          Welcome to my portfolio. My name is Amauri and I love coding! I'm in
-          the middle of a big career change going from basically customer
-          service to being a coder. I made this website for people to get to
-          know a bit about me and see my work as I try navigate this new world
-          I'm just starting off in. Please, help yourself and look through my
-          portfolio and feel free to contact me if you wish.
+        Hi there, and welcome to my portfolio! My name is Veroneca Sander, 
+        and I'm thrilled to have you here. As a software developer, 
+        I'm passionate about creating elegant and intuitive solutions to complex problems. 
+        In this portfolio, you'll find examples of my work and the technologies I'm skilled in. 
+        Whether you're a potential employer or just browsing, 
+        I hope you'll find something here that inspires you. 
+        Please feel free to reach out if you have any questions or would 
+        like to chat about a potential project. Thanks for stopping by!
         </p>
         <section style={{ display: 'flex' }}>
-          <h3>Backstory</h3>
-          <i>If you're interested</i>
+          <h3>Experiences</h3>
         </section>
         <p>
-          Back in highschool a friend of mine in this field taught very small
-          amount of coding and loved it but unfortunately due to circumstances
-          out of my control I couldn't finish college for a degree in computer
-          science. So went on to work at a hotel for 7 years. Then after having
-          enough of working a job I had no passion for I decided I had enough so
-          I moved to california,{' '}
-          <i>for other reasons that are not important to the story</i>, and
-          started planning to change. Through some luck a friend told me about a
-          coding boot camp given by UC Davis so I did some research and it
-          seemed like a perfect fit for where I was and wanted. After a few
-          months that brings us to the now where I am almost done with the boot
-          camp and am looking for potential employers. If you have an interest
-          in talking about hiring me feel free to send me a message through the
-          contact me page.
+            {' '}
+          <i></i>
         </p>
       </section>
     </section>
   );
 }
 
-export default About;
+export default Home;

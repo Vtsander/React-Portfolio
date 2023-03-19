@@ -8,15 +8,16 @@ import Resume from '../pages/Resume';
 import Home from '../pages/Home';
 
 const pages = {
-  Home,
-  about: About,
-  portfolio: Projects,
-  contact: Contact,
-  resume: Resume,
-};
+    Home: Home,
+    About: About,
+    Projects: Projects,
+    Contact: Contact,
+    Resume: Resume,
+  };
+  
 
-function Main() {
-  const [currentPage, setCurrentPage] = useState('about');
+function MainHome() {
+  const [currentPage, setCurrentPage] = useState('Home');
   
   useEffect(() => {
     const hash = window.location.hash.slice(1);
@@ -36,4 +37,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default MainHome;
