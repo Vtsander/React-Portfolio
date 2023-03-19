@@ -1,3 +1,33 @@
+# React Portfolio
+
+## Description
+ - 
+## License 
+ - MIT License
+## Tech Used
+ - 
+ - 
+ - 
+ - 
+## Usage
+ - 
+## Installation
+ - 
+ - 
+ - 
+ - 
+ - 
+## Contributors
+ - Veroneca Sander
+## Challenges
+ - 
+ - 
+## Contact Info
+ - Github - @Vtsander
+ - Email - nguyenveroneca@yahoo.com
+## Photos of Project
+ - 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
