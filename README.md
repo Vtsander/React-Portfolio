@@ -5,23 +5,22 @@
 ## License 
  - MIT License
 ## Tech Used
- - 
- - 
- - 
- - 
+ - Node.js
+ - React
+ - JS
+ - CSS
+ - State
 ## Usage
  - A portfolio created using React is a powerful tool for showcasing a web developer's skills and expertise to potential employers or clients. It allows developers to present their projects, skills, and experience in a visually appealing and interactive manner. A React portfolio can be customized to meet specific needs and is a valuable marketing tool for establishing a web developer's presence in the industry.
 ## Installation
- - 
- - 
- - 
- - 
- - 
+ - Open terminal
+ - Npm install
+ - Npm start
 ## Contributors
  - Veroneca Sander
 ## Challenges
- - 
- - 
+ - Kept having the same error pop up and cannot view page until all errors are dealt with
+ - CSS with react can be finnicky
 ## Contact Info
  - Github - @Vtsander
  - Email - nguyenveroneca@yahoo.com
