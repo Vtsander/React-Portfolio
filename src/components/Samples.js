@@ -4,6 +4,8 @@ import textEditorPreview from '../assets/JATE.png';
 import noteTakerPreview from '../assets/Notes.png'; 
 import employeeTrackerPreview from '../assets/EmpTrack.png';
 import hootenannyHeroPreview from '../assets/Hoot.png'; 
+import 'bootstrap/js/dist/alert';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 const projects = [
@@ -43,5 +45,6 @@ const projects = [
     img: { src: employeeTrackerPreview, alt: 'Employee Tracker preview' },
   },
 ];
+
 
 export default projects;

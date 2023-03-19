@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import 'bootstrap/js/dist/alert';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Header from './Header';
 import Footer from './Footer';
 import About from '../pages/About';
@@ -16,7 +18,7 @@ const pages = {
   };
   
 
-function MainHome() {
+const Main = () => {
   const [currentPage, setCurrentPage] = useState('Home');
   
   useEffect(() => {
@@ -37,4 +39,4 @@ function MainHome() {
   );
 }
 
-export default MainHome;
+export default Main;
