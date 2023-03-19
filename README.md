@@ -25,4 +25,4 @@
  - Github - @Vtsander
  - Email - nguyenveroneca@yahoo.com
 ## Photos of Project
- - <img src="./Assets/Portfolio.png">
+ - <img src="./src/assets/Portfolio.png">
